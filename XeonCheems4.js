@@ -3,10 +3,10 @@
 //or copy the codes/script,
 //pls give credit
 //no credit? i will take action immediately
-//© 2022 NIPUNA Bot Inc. nero Bot MD
-//Thank you to Lord NIPUNA, Family and Myself
+//© 2022 𝐌𝐄𝐇𝐑𝐀𝐉  Bot Inc. nero Bot MD
+//Thank you to Lord 𝐌𝐄𝐇𝐑𝐀𝐉 , Family and Myself
 //════════════════════════════//
-      // NIPUNA
+      // 𝐌𝐄𝐇𝐑𝐀𝐉 
 //════════════════════════════//
 //If you recode and uploading on your channel
 //or copy pasting the codes in ur script, 
@@ -1286,7 +1286,7 @@ if (q.includes('--help')) return reply(examkosong)
     let buttonMessage = {
       image: { url: './storage/image/tambang.jpg' },
       caption: caption,
-      footer: 'BLUE LIONE BOT',
+      footer: '𝐌𝐄𝐇𝐑𝐀𝐉 BOT',
       buttons: buttons,
       headerType: 4
      }
@@ -6096,7 +6096,7 @@ case 'wamod': case 'mod': {
 
        *Mod ගණන :-* 6`,
        footer: `${global.botname}`,
-       title: `*Mod Whatsapp Downloder By Nipuna*`,
+       title: `*Mod Whatsapp Downloder By 𝐌𝐄𝐇𝐑𝐀𝐉 *`,
        buttonText: "Select",
        sections
       }, { quoted : m })
@@ -6109,7 +6109,7 @@ if (!text) return reply(mess.linkm)
 if (!isUrl(args[0]) && !args[0].includes('mediafire.com')) return reply(`Cant Download This Mod`)
 const baby1 = await mediafireDl(text)
 if (baby1[0].size.split('MB')[0] >= 200) return reply('*File Over Limit* '+util.format(baby1))
-const result4 = `  *Mod Whatsapp Downloder By Nipuna*
+const result4 = `  *Mod Whatsapp Downloder By 𝐌𝐄𝐇𝐑𝐀𝐉 *
 
 _Mod Name :_ *${baby1[0].nama}*
 _Size :_ *${baby1[0].size}*`
@@ -6690,12 +6690,12 @@ case 'fb' :
    if (!q) return await XeonBotInc.sendMessage(from , { text: 'need fb link' }, { quoted: m } )      
    const isfb = q.includes('facebook.com')? q.includes('facebook.com') : q.includes('fb.watch')? q.includes('fb.watch') : ''
        if (!isfb) return await XeonBotInc.sendMessage(from , { text: 'need fb link' }, { quoted: m } )  
-  const msg = '*NIPUNA* MD FB Downloder\n\n*📥Quality එක තෝරන්න්න📤*'
+  const msg = '*𝐌𝐄𝐇𝐑𝐀𝐉 * MD FB Downloder\n\n*📥Quality එක තෝරන්න්න📤*'
 const buttons = [
 {buttonId: 'fbsd ' + q, buttonText: {displayText: '480p'}, type: 1},
 {buttonId: 'fbhd ' + q, buttonText: {displayText: '720p'}, type: 1},
 ]
-await XeonBotInc.sendMessage(from, {  text: msg , footer: `📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ` , buttons: buttons , headerType: 4} , { quoted: m } )  
+await XeonBotInc.sendMessage(from, {  text: msg , footer: `📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ` , buttons: buttons , headerType: 4} , { quoted: m } )  
 
     } catch(e) {
   await XeonBotInc.sendMessage(from , { text: 'error\n\n' + e }, { quoted: m } )      
@@ -6843,7 +6843,7 @@ break
 	if (isBanChat) return reply(mess.banChat)
 	reply(mess.wait)
             let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
-            if (!args[0]) reply(`Use ${prefix}gitclone repo link\nExample: https://github.com/NIPUNAsithum/DARK-NERO-BOT.git`)
+            if (!args[0]) reply(`Use ${prefix}gitclone repo link\nExample: https://github.com/𝐌𝐄𝐇𝐑𝐀𝐉 sithum/DARK-NERO-BOT.git`)
     if (!regex1.test(args[0])) return reply(mess.linkm)
     let [, user, repo] = args[0].match(regex1) || []
     repo = repo.replace(/.git$/, '')
@@ -8158,7 +8158,7 @@ let buttons = [
 ]
 let buttonMessage = {
 image: { url: anu.thumbnail },
-caption: `*┏━━━❬NIPUNA MD📌❭*
+caption: `*┏━━━❬𝐌𝐄𝐇𝐑𝐀𝐉  MD📌❭*
      
    *📥 YOUTUBE DOWNLODER* 
  
@@ -8172,10 +8172,10 @@ caption: `*┏━━━❬NIPUNA MD📌❭*
 
 *┃🔖Runtime :* ${runtime(process.uptime())}
  
-*┃BOT NAME : 📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 
+*┃BOT NAME : 📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 
 
 ┗━━━━━━━━━❊`,
-footer: `📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 `,
+footer: `📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 `,
 buttons: buttons,
 headerType: 4,
 }
@@ -8194,7 +8194,7 @@ let buttons = [
 ]
 let buttonMessage = {
 image: { url: anu.thumbnail },
-caption: `*┏━━━❬NIPUNA MD📌❭*
+caption: `*┏━━━❬𝐌𝐄𝐇𝐑𝐀𝐉  MD📌❭*
      
    *📥 SONG DOWNLODER* 
  
@@ -8208,10 +8208,10 @@ caption: `*┏━━━❬NIPUNA MD📌❭*
 
 *┃🔖Runtime :* ${runtime(process.uptime())}
  
-*┃BOT NAME : 📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 
+*┃BOT NAME : 📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 
 
 ┗━━━━━━━━━❊`,
-footer: `📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 `,
+footer: `📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 `,
 buttons: buttons,
 headerType: 4,
 }
@@ -8226,7 +8226,7 @@ case 'ytdl': {
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 listMessage :{
  title: `Hi ${pushname}`,
- description: `*┏━━━❬NIPUNA MD📌❭*
+ description: `*┏━━━❬𝐌𝐄𝐇𝐑𝐀𝐉  MD📌❭*
      
   📥 ADVANCE YOUTUBE DOWNLODER* 
 
@@ -8240,11 +8240,11 @@ listMessage :{
 
 *┃🔖Description : ${anu.description}
 
-*┃BOT NAME : 📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 
+*┃BOT NAME : 📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 
 
 ┗━━━━━━━━━❊`,
  buttonText: "Menu",
- footerText: `📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 `,
+ footerText: `📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 `,
  listType: "SINGLE_SELECT",
  sections: [{
     "title": "MP4",
@@ -8377,7 +8377,7 @@ break
  ]
  let buttonMessage = {
  image: { url: anu.thumbnail },
- caption: `*┏━━━❬NIPUNA MD📌❭*
+ caption: `*┏━━━❬𝐌𝐄𝐇𝐑𝐀𝐉  MD📌❭*
      
    📥 VIDEO DOWNLODER* 
  
@@ -8391,10 +8391,10 @@ break
 
 *┃🔖Runtime :* ${runtime(process.uptime())}
  
-*┃BOT NAME :* *📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 *
+*┃BOT NAME :* *📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 *
 
 ┗━━━━━━━━━❊`,
- footer: `📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 `,
+ footer: `📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 `,
  buttons: buttons,
  headerType: 4,
  }
@@ -9028,8 +9028,8 @@ case 'alive': {
     {buttonId: `ping`, buttonText: {displayText: 'SPEED'}, type: 1}
     ]
     let buttonMessage = {
-    image: { url: `https://i.ibb.co/0mDLtyr/f2337149532299-58b7611d91faf.jpg` },
-    caption: `╔═════❬ 📶𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚📶❭
+    image: { url: `https://thumbs.gfycat.com/LateAmbitiousHomalocephale-size_restricted.gif` },
+    caption: `╔═════❬ 📶𝐌𝐄𝐇𝐑𝐀𝐉📶❭
 
 
     │「 *Hi* ✌ 」
@@ -9044,12 +9044,12 @@ case 'alive': {
     
     ➤🛡️ 𝐕𝐞𝐫𝐬𝐢𝐨𝐧  : 1.2
     
-    ➤🛡️ 𝐁𝐨𝐭 𝐧𝐚𝐦𝐞 : 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚
+    ➤🛡️ 𝐁𝐨𝐭 𝐧𝐚𝐦𝐞 : 𝐌𝐄𝐇𝐑𝐀𝐉
     
     ➤🛡️ 𝐎𝐰𝐞𝐧𝐞𝐫 𝐍𝐨:${global.owner} 
       
   *╚═══❖•ೋ° °ೋ•❖═══╝*`,
-    footer: `📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶`,
+    footer: `📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶`,
     buttons: buttons,
     headerType: 4,
     }
@@ -9063,7 +9063,7 @@ case 'menu': {
     {buttonId: `ping`, buttonText: {displayText: 'PING'}, type: 1}
     ]
     let buttonMessage = {
-    image: { url: `https://i.ibb.co/0mDLtyr/f2337149532299-58b7611d91faf.jpg` },
+    image: { url: `https://thumbs.gfycat.com/LateAmbitiousHomalocephale-size_restricted.gif` },
     caption: `╔═══════📛「 OWNER 」	
     ╠🛡️  ${prefix}self
     ╠🛡️  ${prefix}public
@@ -9087,12 +9087,12 @@ case 'menu': {
     ╠🛡️  ${prefix}unblock [tag/number]
     ╠🛡️  ${prefix}coowner [add/del]
     ╠🛡️             
-    ╚═══❖📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶❯
+    ╚═══❖📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶❯
 
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️
     ╠═══════📛「 GROUP 」	        
     ╠🛡️ ${prefix}grousetting
@@ -9131,12 +9131,12 @@ case 'menu': {
     ╠🛡️ ${prefix}checkvote
     ╠🛡️ ${prefix}delvote
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️
     ╠═══════📛「 MAKER 」
     ╠🛡️ ${prefix}candy
@@ -9242,12 +9242,12 @@ case 'menu': {
     ╠🛡️  ${prefix}watercolor
     ╠🛡️  ${prefix}classic
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️
     ╠═════📛「 DOWNLOAD 」	
     ╠🛡️ ${prefix}instagram [url]
@@ -9272,11 +9272,11 @@ case 'menu': {
     ╠🛡️ ${prefix}wamod
     ╠🛡️ ${prefix}wa
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️
     ╠═══════📛「 SEARCH 」	
     ╠🛡️ ${prefix}play [query]
@@ -9306,12 +9306,12 @@ case 'menu': {
     ╠🛡️ ${prefix}mcserver [ip|port]
     ╠🛡️ ${prefix}drakor [query]
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️
     ╠═══════📛「 CONVERT 」
     ╠🛡️ ${prefix}toimage [reply stick]
@@ -9343,12 +9343,12 @@ case 'menu': {
     ╠🛡️ ${prefix}slow [reply aud]
     ╠🛡️ ${prefix}squirrel [reply aud]
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️
     ╠═══════📛「 IMG EFFECT 」
     ╠🛡️ ${prefix}wanted
@@ -9366,11 +9366,11 @@ case 'menu': {
     ╠🛡️ ${prefix}deleteeffect
     ╠🛡️ ${prefix}pixelate
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️
     ╠═══════📛「 RANDOM IMG 」
     ╠🛡️ ${prefix}coffee
@@ -9386,12 +9386,12 @@ case 'menu': {
     ╠🛡️ ${prefix}animewall [query]
     ╠🛡️  ${prefix}animewall2 [query]
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️
     ╠═══════📛「 EMOTE 」
     ╠🛡️ ${prefix}instagramemoji
@@ -9407,12 +9407,12 @@ case 'menu': {
     ╠🛡️ ${prefix}pediaemoji
     ╠🛡️ ${prefix}microsoftemoji
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️
     ╠═══════📛「 ANIME 」
     ╠🛡️ ${prefix}naruto
@@ -9464,12 +9464,12 @@ case 'menu': {
     ╠🛡️ ${prefix}smug2
     ╠🛡️ ${prefix}couplepp
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️ 
     ╠══════📛「 STICKER 」
     ╠🛡️  ${prefix}patrick
@@ -9480,12 +9480,12 @@ case 'menu': {
     ╠🛡️  ${prefix}doge
     ╠🛡️  ${prefix}lovesticker
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️
     ╠════📛「 ANIME STICKER 」
     ╠🛡️ ${prefix}loli
@@ -9518,12 +9518,12 @@ case 'menu': {
     ╠🛡️ ${prefix}neko
     ╠🛡️ ${prefix}gura
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️ 
     ╠═══════📛「 NSFW 」
     ╠🛡️ ${prefix}hentaivideo
@@ -9552,12 +9552,12 @@ case 'menu': {
     ╠🛡️ ${prefix}hneko
     ╠🛡️ ${prefix}nwaifu
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️
     ╠═══════📛「 FUN 」
     ╠🛡️  ${prefix}how [text
@@ -9625,12 +9625,12 @@ case 'menu': {
     ╠🛡️  ${prefix}fuckgirl
     ╠🛡️  ${prefix}plygirl
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️
     ╠══════📛「 SOUND 」
     ╠🛡️  ${prefix}sound1
@@ -9794,12 +9794,12 @@ case 'menu': {
     ╠🛡️ ${prefix}sound160
     ╠🛡️ ${prefix}sound161
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠══════📛「 GAME 」
     ╠🛡️ ${prefix}truth
     ╠🛡️ ${prefix}dare
@@ -9809,12 +9809,12 @@ case 'menu': {
     ╠🛡️ ${prefix}math [mode]
     ╠🛡️ ${prefix}suitpvp [tag]
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️
     ╠══📛「 ANONYMOUS CHAT 」
     ╠🛡️ ${prefix}anonymous
@@ -9823,23 +9823,23 @@ case 'menu': {
     ╠🛡️ ${prefix}leave
     ╠══════📛「 TOOL 」
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
      
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️
     ╠🛡️ ${prefix}translate [text]
     ╠🛡️ ${prefix}fliptext [text]
     ╠🛡️ ${prefix}toletter [number]
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️
     ╠══════📛「 DATABASE 」
     ╠🛡️ ${prefix}setcmd
@@ -9851,12 +9851,12 @@ case 'menu': {
     ╠🛡️ ${prefix}getmsg
     ╠🛡️ ${prefix}delmsg
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️
     ╠══════📛「 lNDO 」
     ╠🛡️ ${prefix}darkjoke
@@ -9884,12 +9884,12 @@ case 'menu': {
     ╠🛡️ ${prefix}earthquake
     ╠🛡️ ${prefix}tvschedule 
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️
     ╠══════📛「 INDO HSCOPE 」
     ╠🛡️ ${prefix}nomorhoki
@@ -9923,13 +9923,13 @@ case 'menu': {
     ╠🛡️ ${prefix}zodiak
     ╠🛡️ ${prefix}shio
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
  
 
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 𝐌𝐄𝐇𝐑𝐀𝐉  ═════*
     ╠🛡️
     ╠══════📛「 OTHER 」
     ╠🛡️  ${prefix}afk
@@ -9951,7 +9951,7 @@ case 'menu': {
     ╠🛡️  ${prefix}request
     ╠🛡️ ${prefix}report [bug]
     ╠🛡️             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  📶 𝐌𝐄𝐇𝐑𝐀𝐉 📶 ❯
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -9965,7 +9965,7 @@ case 'tqtt':
 	if (isBanChat) return reply(mess.banChat)
 reply(`Thanks to
 Kumuthu & Vihanga
-NIPUNA (Me)
+𝐌𝐄𝐇𝐑𝐀𝐉  (Me)
 My family
 And all friends who helped assemble this script !!!`)
 break
